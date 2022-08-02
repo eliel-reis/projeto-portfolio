@@ -1,0 +1,23 @@
+@media only screen and (max-width: 748px) {
+    .menu{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projeto1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projeto-card{
+        width: 100%;
+        height: 150px;
+    }
+
+    .projeto-textt{
+        width: 100%;
+        height: 150px;
+    }
+}
