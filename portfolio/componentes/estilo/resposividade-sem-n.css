@@ -1,9 +1,21 @@
 @media only screen and (max-width: 748px) {
     .menu{
-        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        max-width: 100%;
+    }
+
+    .menu > ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu > ul > li{
+        margin: 5px;
+        text-align: center;
     }
 
     .projeto1{
