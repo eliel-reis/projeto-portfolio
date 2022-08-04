@@ -21,6 +21,7 @@ body{
 .menu{
     height: 10vh;
     border: 1px solid #AA978A;
+    width: 100%;
 }
 
 .header-juntando{
