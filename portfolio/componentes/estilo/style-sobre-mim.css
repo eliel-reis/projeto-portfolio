@@ -24,15 +24,35 @@ section{
 
 .text-sobre{
     display: flex;
-    justify-content: center;
     text-align: justify;
     width: 400px;
     height: 450px;
     padding: 10px;
-    
+    flex-direction: column;
 }
 
 .text-sobre > p{
     margin-top: 30px;
     font-weight: 500;
+}
+
+.curriculo{
+    color: #9A613C;
+    text-decoration: none;
+    border: 2px solid #9A613C;
+    padding: 4px 20px 4px 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.curriculo:hover{
+    background-color: #9A613C;
+    color: #AA978A;
+    transition-duration: 0.8s;
+}
+
+.curriculo:hover.curriculo > a{
+    color: #AA978A;
+    transition-duration: 0.8s;
 }
