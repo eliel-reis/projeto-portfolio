@@ -39,8 +39,8 @@
         font-size: 2.6em;
     }
     
-    .header-2 {
-        display: none;
+    .header-1 > h2 {
+        font-size: 1.4em;
     }
 
     .projeto{
